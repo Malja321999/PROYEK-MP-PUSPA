@@ -1,4 +1,4 @@
-#Gant Chart [JADWAL PROYEK PUSPA] BY JAMALUDIN
+#Gant Chart [JADWAL PROYEK PUSPA] BY JAMALUDIN (Masih Perlu Disesuiakan)
 #
 #
 
