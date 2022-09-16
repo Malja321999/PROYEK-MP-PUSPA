@@ -1,4 +1,4 @@
-# Gant Chart [JADWAL PROYEK PUSPA] BY JAMALUDIN (Masih Perlu Disesuiakan)
+debian-11.2.0-i386-DVD-1.isodebian-11.2.0-i386-DVD-1.iso# Gant Chart [JADWAL PROYEK PUSPA] BY JAMALUDIN (Masih Perlu Disesuiakan)
 #
 #
 
