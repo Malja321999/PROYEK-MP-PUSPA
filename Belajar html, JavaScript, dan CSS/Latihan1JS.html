@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{}
+    </style>
+</head>
+<body>
+    <p>Berapakah hasil dari 2x2 = ...</p>
+    <input type="radio" name="soal1" value="a">
+    <label for="1">1</label><br>
+
+    <input type="radio" name="soal" value="b">
+    <label for="2">2</label><br>
+
+    <input type="radio" name="soal1" value="c">
+    <label for="3">3</label><br>
+
+    <input type="radio" name="soal1" value="d">
+    <label for="4">4</label><br>
+    
+
+    <br>
+    <p>siapa presiden indonesia sekarang?</p>
+    <input type="text" id="soal2">
+    <button id="cek_jwbn">Submit</button>
+
+    
+
+
+    
+
+</body> 
+
+<script>
+    
+
+    document.getElementById("cek_jwbn").addEventListener("click",function(){
+        var jawaban = document.querySelector('input[name="soal1"]:checked').value;
+        var nilai=0;
+
+        if(jawaban=="d"){
+            nilai=nilai+50;
+        }
+        else{
+            nilai=nilai+0;
+        }
+
+
+        var jawaban2 = document.getElementById("soal2").value;
+        
+        if(jawaban2.toLowerCase()=="jokowi"){
+            nilai=nilai+50;
+        }
+        else{
+            nilai=nilai+0;
+        }
+
+        alert("nilai anda adalah = "+nilai);
+
+    }   );
+
+</script>
+</body>
+</html>
