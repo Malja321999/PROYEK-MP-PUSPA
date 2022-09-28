@@ -10,26 +10,41 @@
     </style>
 </head>
 <body>
-    <p>Berapakah hasil dari 2x2 = ...</p>
+    <p>1. Berapakah hasil dari 2x2 = ...</p>
     <input type="radio" name="soal1" value="a">
-    <label for="1">1</label><br>
-
+    <label for="1">A. 1</label><br>
+    
     <input type="radio" name="soal" value="b">
-    <label for="2">2</label><br>
+    <label for="2">B. 2</label><br>
 
     <input type="radio" name="soal1" value="c">
-    <label for="3">3</label><br>
+    <label for="3">C. 3</label><br>
 
     <input type="radio" name="soal1" value="d">
-    <label for="4">4</label><br>
+    <label for="4">D. 4</label><br>
     
+    <br>
+    <p>2. Menurut teori Waisya, masuknya kebudayaan Hindu ke Indonesia dibawa oleh ....</p>
+    <input type="radio" name="soal2" value="a">
+    <label for="1">A. Biksu </label><br>
+    
+    <input type="radio" name="soal" value="b">
+    <label for="2">B. Prajurit</label><br>
+
+    <input type="radio" name="soal1" value="c">
+    <label for="3">C. Pedagang</label><br>
+
+    <input type="radio" name="soal1" value="d">
+    <label for="4">D. Pekerja</label><br>
+    
+    <br>
+    <p>3. siapa presiden indonesia sekarang?</p>
+    <input type="text" id="soal3">
 
     <br>
-    <p>siapa presiden indonesia sekarang?</p>
-    <input type="text" id="soal2">
+    <p>4. Ada beberapa teori tentang masuknya Hndu-Buddha ke Indonesia, salah satu teori dikemukakan oleh Van Leur. Menurut pendapat Van Leur, Hindu-Buddha masuk ke Indonesia dibawa oleh kaum?</p>
+    <input type="text" id="soal4">
     <button id="cek_jwbn">Submit</button>
-
-    
 
 
     
@@ -40,21 +55,35 @@
     
 
     document.getElementById("cek_jwbn").addEventListener("click",function(){
-        var jawaban = document.querySelector('input[name="soal1"]:checked').value;
         var nilai=0;
+        var jawaban1 = document.querySelector('input[name="soal1"]:checked').value;
+        if(jawaban1=="d"){
+            nilai=nilai+20;
+        }
+        else{
+            nilai=nilai+0;
+        }
 
-        if(jawaban=="d"){
-            nilai=nilai+50;
+        var jawaban2 = document.querySelector('input[name="soal2"]:checked').value;
+        if(jawaban2=="c"){
+            nilai=nilai+20;
         }
         else{
             nilai=nilai+0;
         }
 
 
-        var jawaban2 = document.getElementById("soal2").value;
-        
-        if(jawaban2.toLowerCase()=="jokowi"){
-            nilai=nilai+50;
+        var jawaban3 = document.getElementById("soal3").value;
+        if(jawaban3.toLowerCase()=="jokowi"){
+            nilai=nilai+20;
+        }
+        else{
+            nilai=nilai+0;
+        }
+
+        var jawaban4 = document.getElementById("soal4").value;
+        if(jawaban4.toLowerCase()=="brahmana"){
+            nilai=nilai+20;
         }
         else{
             nilai=nilai+0;
@@ -62,6 +91,8 @@
 
         alert("nilai anda adalah = "+nilai);
 
+
+        
     }   );
 
 </script>
