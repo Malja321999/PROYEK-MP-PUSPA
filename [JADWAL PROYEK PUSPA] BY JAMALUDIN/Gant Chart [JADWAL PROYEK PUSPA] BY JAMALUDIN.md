@@ -23,6 +23,6 @@
 | 13. | 18 November 2022  |  Mengembangkan Proyek PUSPA                                                        |
 | 14. | 25 November 2022  |   **ALPA TEST**                                                                    |
 | 15. | 02 Desember 2022  |   **BETA TEST**                                                                    |
-| 16. | **09 Desember 2022**|Mempresentasikan hasil untuk **UTS**                                                                                                        |
+| 16. | **09 Desember 2022**|Mempresentasikan hasil untuk **UAS**                                                                                                        |
 
 
