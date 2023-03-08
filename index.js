@@ -4,6 +4,26 @@
     choices: [2, 5, 10, 15, 20],
     correctAnswer: 2
   },
+   var questions = [{
+    question: "Berapa 2 X 5?",
+    choices: [2, 5, 10, 15, 20],
+    correctAnswer: 2
+  },
+   var questions = [{
+    question: "Berapa 2 X 5?",
+    choices: [2, 5, 10, 15, 20],
+    correctAnswer: 2
+  },
+   var questions = [{
+    question: "Berapa 2 X 5?",
+    choices: [2, 5, 10, 15, 20],
+    correctAnswer: 2
+  },
+   var questions = [{
+    question: "Berapa 2 X 5?",
+    choices: [2, 5, 10, 15, 20],
+    correctAnswer: 2
+  },
 ];
   
   var questionCounter = 0; //Tracks question number
